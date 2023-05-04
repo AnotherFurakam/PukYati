@@ -1,0 +1,57 @@
+body {
+    background-color: #000;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    background-size: contain;
+}
+
+.button {
+    background-color: #C44090;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 8%;
+    text-decoration: none;
+    scale: 1;
+    transition: .2s;
+    max-height: 56px;
+    height: 56px;
+    min-width: 214px;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #d3469b;
+    transition: .2s;
+}
+
+.parallax {
+    background-image: url('../img/acercade/fondo.png');
+    background-position: 0 0;
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+    height: 1000px;
+}
+
+.estado{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.estado span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.biblioblock{
+    background-color: rgba(0, 0, 0, 0.815);
+}

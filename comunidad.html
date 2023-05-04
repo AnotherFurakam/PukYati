@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Comunidad</title>
+  <!-- Bootsrap -->
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor' crossorigin='anonymous'>
+
+  <link rel="stylesheet" href="./assets/css/comunidad.css">
+  <link rel="stylesheet" href="./assets/css/nav.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+
+
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-dark navbar-expand-md nav flex-column">
+      <div class="d-flex justify-content-end w-100">
+        <ul class="navbar-nav auth-nav flex-row me-3 me-lg-0">
+          <li class="nav-item">
+            <a class="nav-link auth-link" href="./login.html">Iniciar sesión</a>
+          </li>
+          <li class="bg-light mx-1 separador">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link auth-link" href="./Registro.html">Registrarse</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container-fluid mx-lg-4">
+        <a href="./index.html" class="nav__logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-6">
+            <li class="nav-item">
+              <a class="nav-link" href="./biblioteca.html">BIBLIOTECA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./comunidad.html">COMUNIDAD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./acercade.html">ACERCA DE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./soporte.html">SOPORTE</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main shadow d-flex justify-content-center align-items-center">
+
+    <div class="comunidad-container py-5 px-2 px-sm-5 bg-dark rounded-2 mx-2 my-5">
+      <div class="d-flex flex-column flex-xl-row justify-content-between align-items-center gap-4">
+        <div
+          class="d-flex gap-3 gap-md-5 justify-content-between justify-content-xl-start w-100 flex-column flex-md-row">
+          <div>
+            <h1 class="text-uppercase text-light text-center text-md-start">comunidad</h1>
+          </div>
+          <form class="d-flex align-items-center justify-content-md-start justify-content-center">
+            <input type="text" class="form-control rounded-0" style="width: 280px; max-width: 280px;">
+            <div class="d-flex justify-content-center align-items-center bg-light p-1 px-2 m-0 btn-search"
+              style="min-height: 38px;">
+              <i class='bx bx-search text-dark fs-4'></i>
+            </div>
+          </form>
+        </div>
+        <div class="d-flex gap-3 flex-column flex-sm-row w-100">
+          <button type="button" class="w-100 button d-flex align-items-center justify-content-center px-3 gap-2"><i
+              class='bx bxs-zap fs-4'></i>
+            <h4 class="m-0 fs-5">Nuevos mensajes</h4>
+          </button>
+          <button type="button" class="w-100 button d-flex align-items-center justify-content-center px-3 gap-2"><i
+              class='bx bxs-edit fs-4'></i>
+            <h4 class="m-0 fs-5">Publicar tema</h4>
+          </button>
+        </div>
+      </div>
+      <div class="mt-4 d-flex w-100 gap-2 flex-column flex-md-row">
+        <div class="bg-light w-auto" style="min-width: 60%;">
+          <ul class="list-group rounded-0">
+            <li class="list-group-item bg-black text-light fs-4">Conocimiento</li>
+
+            <li class="list-group-item">
+              <div class="d-flex align-items-center">
+                <img src="./assets/img/comunidad/conocimiento/LogoActivo.png" class="img-conocimiento__icon">
+                <div>
+                  <a href="#" class="tema-title fs-4 conocimiento-title">Ciencia</a>
+                  <ul class="conocimento-list d-flex gap-5">
+                    <li class="conocimento-list__item"><span class="text-secondary">Temas:</span> 2</li>
+                    <li class="conocimento-list__item"><span class="text-secondary">Mensajes:</span> 6</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex align-items-center">
+                <img src="./assets/img/comunidad/conocimiento/LogoInactivo.png" class="img-conocimiento__icon">
+                <div>
+                  <a href="#" class="tema-title fs-4 conocimiento-title">Geografía</a>
+                  <ul class="conocimento-list d-flex gap-5">
+                    <li class="conocimento-list__item"><span class="text-secondary">Temas:</span> 1</li>
+                    <li class="conocimento-list__item"><span class="text-secondary">Mensajes:</span> 3</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex align-items-center">
+                <img src="./assets/img/comunidad/conocimiento/LogoInactivo.png" class="img-conocimiento__icon">
+                <div>
+                  <a href="#" class="tema-title fs-4 conocimiento-title">Historia</a>
+                  <ul class="conocimento-list d-flex gap-5">
+                    <li class="conocimento-list__item"><span class="text-secondary">Temas:</span> 2</li>
+                    <li class="conocimento-list__item"><span class="text-secondary">Mensajes:</span> 2</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex align-items-center">
+                <img src="./assets/img/comunidad/conocimiento/LogoInactivo.png" class="img-conocimiento__icon">
+                <div>
+                  <a href="#" class="tema-title fs-4 conocimiento-title">Mitos y leyendas</a>
+                  <ul class="conocimento-list d-flex gap-5">
+                    <li class="conocimento-list__item"><span class="text-secondary">Temas:</span> 1</li>
+                    <li class="conocimento-list__item"><span class="text-secondary">Mensajes:</span> 1</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-light w-auto" style="min-width: 40%">
+          <ul class="list-group rounded-0">
+            <li class="list-group-item bg-black text-light fs-4 mb-3">Temas destacados</li>
+            <li class="list-group-item">
+              <div class="d-flex gap-3">
+                <img src="./assets/img/comunidad/temasDestacados/userOne.jpeg" class="img-fluid shadow profile-img">
+                <div>
+                  <a href="#" class="fs-4 tema-title">La historia de Bolivar en el Perú</a>
+                  <ul class="tema-list">
+                    <li class="tema-list__item">Iniciado por Force</li>
+                    <li>El Jueves a las 5:12 PM</li>
+                    <li>Repuestas: 4</li>
+                    <li>Historia</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex gap-3">
+                <img src="./assets/img/comunidad/temasDestacados/userTwo.jpeg" class="img-fluid shadow profile-img">
+                <div>
+                  <a href="#" class="fs-4 tema-title">Manco Cápac y Mama Ocllo</a>
+                  <ul class="tema-list">
+                    <li class="tema-list__item">Iniciado por Force</li>
+                    <li>El Jueves a las 1:12 PM</li>
+                    <li>Repuestas: 2</li>
+                    <li>Mitos y leyendas</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-4">
+        <ul class="list-group rounded-0">
+          <li class="list-group-item bg-black text-light fs-4">Videojuegos</li>
+          <li class="list-group-item">
+            <div class="d-flex align-items-center">
+              <img src="./assets/img/comunidad/conocimiento/LogoInactivo.png" class="img-conocimiento__icon">
+              <div>
+                <a href="#" class="tema-title fs-4 conocimiento-title">Videojuegos Puk-Yati</a>
+                <ul class="conocimento-list d-flex gap-5">
+                  <li class="conocimento-list__item"><span class="text-secondary">Temas:</span> 2</li>
+                  <li class="conocimento-list__item"><span class="text-secondary">Mensajes:</span> 6</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="d-flex flex-column align-items-center">
+    <div class="row copy copy pt-4">
+      <div class="logo-footer col-md-3 mx-auto mx-0 mb-3 mb-md-0"></div>
+      <div class="col-md-9 mx-auto" style="width: 90%;">
+        <p class="text-light w-100 m-0 text-center text-md-start" style="text-align: justify;">
+          Ⓒ 2022 Puk-Yati. Todos los derechos reservados. Todas las marcas registradas pretenecen a sus respectivos
+          dueños en Perú.
+          Todos los precios incluyen IGV.&nbsp;&nbsp;
+          <a href="" class="footer-link text-secondary">Política de Privacidad</a> -
+          <a href="" class="footer-link text-secondary">Informacion legal</a> -
+          <a href="" class="footer-link text-secondary">Acuerdo de suscriptor a Puk-Yati</a> -
+          <a href="" class="footer-link text-secondary">Reembolsos</a> -
+          <a href="" class="footer-link text-secondary">Cookies</a>
+        </p>
+      </div>
+    </div>
+    <div class="d-flex justify-content-end copy">
+      <div class="d-flex gap-3 mx-auto mx-md-0 my-3 my-md-0">
+        <a href="" class="footer-link text-secondary" style="font-size: 40px;"><i
+            class='bx bxl-facebook-square'></i></a>
+        <a href="" class="footer-link text-secondary" style="font-size: 40px;"><i class='bx bxl-instagram'></i></a>
+        <a href="" class="footer-link text-secondary" style="font-size: 40px;"><i class='bx bxl-whatsapp'></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js'
+    integrity='sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2'
+    crossorigin='anonymous'></script>
+</body>
+
+</html>
